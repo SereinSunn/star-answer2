@@ -1,0 +1,10 @@
+/**app.wxss**/
+
+
+page {
+  background:#F0FBEB;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+

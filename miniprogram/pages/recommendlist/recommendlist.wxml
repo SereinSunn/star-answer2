@@ -1,0 +1,22 @@
+<!--miniprogram/pages/recommendlist/recommendlist.wxml-->
+<!-- <text>miniprogram/pages/recommendlist/recommendlist.wxml</text> -->
+<!-- 轮播图组件 -->
+
+  <swiper indicator-dots="true" autoplay="true" interval="2000" duration="1000" indicator-color="green" circular="true">
+    <block wx:for="{{swiperImgUrls}}" wx:key="swiperImgUrls">
+      <swiper-item >
+        <image wx:if="{{item.url}}" src="{{item.url}}" mode="widthFix" class="swiper-img"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+ 
+   
+
+<!-- 组件 -->
+<!-- <recommendlist-container> -->
+<view class="recommendlist-container">
+
+  <block   wx:for="{{recommendlist}}" wx:key="recommendlist">
+    <x-recommendlist recommendlist="{{item}}" ></x-recommendlist>
+  </block>
+</view>

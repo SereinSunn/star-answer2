@@ -1,0 +1,8 @@
+<view class="playlist-container" >
+ <image src="{{recommendlist.picUrl}}" class="playlist-img" ></image>
+ <text class="playlist-playcount"> {{recommendlist.playCount}}</text>
+ <text class="playlist-name"> {{recommendlist.name}}</text>
+ <!-- <view>{{recommendlist.name}}</view> -->
+</view>
+
+ 

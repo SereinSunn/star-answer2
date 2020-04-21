@@ -1,0 +1,14 @@
+/* miniprogram/pages/recommendlist/recommendlist.wxss */
+.swiper-img{
+  width: 100%;
+  height: 100%;
+}
+.recommendlist-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20rpx;
+  flex-direction: row;
+  /* position: relative; */
+  /* position:relative; */
+} 

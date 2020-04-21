@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/recommendlist/recommendlist",
+    "pages/discoverylist/discoverylist",
+    "pages/myprofile/myprofile",
+    "components/recommendlist/recommendlist"
+  ],
+  "window": {
+    "backgroundColor": "black",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#C2ECA7",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/recommendlist/recommendlist",
+        "text": "推荐",
+        "iconPath": "images/recommend.png",
+        "selectedIconPath": "images/recommend-active.png"
+      },
+      {
+        "pagePath": "pages/discoverylist/discoverylist",
+        "text": "发现",
+        "iconPath": "images/discovery.png",
+        "selectedIconPath": "images/discovery-active.png"
+      },
+      {
+        "pagePath": "pages/myprofile/myprofile",
+        "text": "我的",
+        "iconPath": "images/myprofile.png",
+        "selectedIconPath": "images/myprofile-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

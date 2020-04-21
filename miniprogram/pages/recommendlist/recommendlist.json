@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "x-recommendlist": "/components/recommendlist/recommendlist"
+  },
+  "navigationBarTitleText": "推荐"
+}
